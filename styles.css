@@ -34,13 +34,17 @@ a{
 .bg_fade_green{
   background-color: #F7FDFA;
 }
-.delivery_card{
+.rounded_border{
   border-radius: 10px;
 }
-
+.background_image{
+  background-size: 100% 100%;
+}
 .essentials{
   box-shadow: 0 5px 10px 2px #eeeeee;
-  padding-top: 90%;
+}
+.product_text{
+  height: 40px;
 }
 .horizontal_scroll{
   overflow-x: auto;
@@ -68,5 +72,8 @@ a{
   }
   .footer_links{
     display: inline;
+  }
+  .top_picks_img{
+    width: 60vw;
   }
 }
