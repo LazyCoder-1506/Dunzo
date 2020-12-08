@@ -60,7 +60,7 @@ a{
   border-bottom: 1px solid lightgray;
 }
 .footer_links{
-  font-size: 12px;
+  font-size: 11px;
 }
 @media(max-width: 999px) {
   .sign_in{
