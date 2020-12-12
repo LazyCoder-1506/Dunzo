@@ -8,7 +8,7 @@ body{
   font-weight: 500;
 }
 p{
-  font-size: 14px !important;
+  font-size: 14px;
 }
 a{
   text-decoration: none !important;
@@ -45,6 +45,7 @@ a{
 }
 .product_text{
   height: 40px;
+  font-size: 12px;
 }
 .horizontal_scroll{
   overflow-x: auto;
@@ -75,5 +76,10 @@ a{
   }
   .top_picks_img{
     width: 60vw;
+  }
+}
+@media(min-width: 999px) {
+  .product_text{
+    font-size: 14px;
   }
 }
