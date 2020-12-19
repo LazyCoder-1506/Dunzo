@@ -20,15 +20,16 @@ a{
 .text_grey{
   color: gray !important;
 }
-.bg_primary{
+.btn_bg_primary{
   background-color: #00b37a;
+}
+.btn_bg_primary:hover{
+  background-color: #009465;
 }
 .navbar_scrolled{
   box-shadow: 0px 2px 10px 2px #eeeeee;
 }
-.sign_in{
-  color: #fff;
-  background-color: #00b37a;
+.round_btn{
   border-radius: 25px;
 }
 .dropdown-toggle{
@@ -36,6 +37,9 @@ a{
 }
 .bg_fade_green{
   background-color: #F7FDFA;
+}
+.bg_fade_gray{
+  background-color: #f9f9f9;
 }
 .rounded_border{
   border-radius: 10px;
@@ -65,6 +69,13 @@ a{
 }
 .footer_links{
   font-size: 11px;
+}
+.redirect_btn{
+  border: 1px solid black;
+}
+.redirect_btn:hover{
+  background-color: #000;
+  color: white;
 }
 @media(max-width: 999px) {
   .sign_in{
